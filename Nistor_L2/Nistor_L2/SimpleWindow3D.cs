@@ -116,19 +116,6 @@ namespace Nistor_L2
 
             KeyboardState keyboard = OpenTK.Input.Keyboard.GetState();
             MouseState mouse = OpenTK.Input.Mouse.GetState();
-
-
-            // Se utilizeaza mecanismul de control input oferit de OpenTK (include perifcerice multiple, mai ales pentru gaming - gamepads, joysticks, etc.).
-          
-
-            //else if (keyboard[OpenTK.Input.Key.H] && !keyboard.Equals(lastKeyPress)) {
-            // Ascundere comandată, prin apăsarea unei taste - cu verificare de remanență! Timpul de reacțieuman << calculator.
-            // if (showCube == true) {
-            //   showCube = false;
-            //} else {
-            //  showCube = true;
-            //}
-            //}
             lastKeyPress = keyboard;
 
 
@@ -166,51 +153,6 @@ namespace Nistor_L2
         }
 
 
-
-
-        /* private void DrawCube()
-         {
-             GL.Begin(PrimitiveType.Quads);
-
-             GL.Color3(Color.Silver);
-             GL.Vertex3(-1.0f, -1.0f, -1.0f);
-             GL.Vertex3(-1.0f, 1.0f, -1.0f);
-             GL.Vertex3(1.0f, 1.0f, -1.0f);
-             GL.Vertex3(1.0f, -1.0f, -1.0f);
-
-             GL.Color3(Color.Honeydew);
-             GL.Vertex3(-1.0f, -1.0f, -1.0f);
-             GL.Vertex3(1.0f, -1.0f, -1.0f);
-             GL.Vertex3(1.0f, -1.0f, 1.0f);
-             GL.Vertex3(-1.0f, -1.0f, 1.0f);
-
-             GL.Color3(Color.Moccasin);
-
-             GL.Vertex3(-1.0f, -1.0f, -1.0f);
-             GL.Vertex3(-1.0f, -1.0f, 1.0f);
-             GL.Vertex3(-1.0f, 1.0f, 1.0f);
-             GL.Vertex3(-1.0f, 1.0f, -1.0f);
-
-             GL.Color3(Color.IndianRed);
-             GL.Vertex3(-1.0f, -1.0f, 1.0f);
-             GL.Vertex3(1.0f, -1.0f, 1.0f);
-             GL.Vertex3(1.0f, 1.0f, 1.0f);
-             GL.Vertex3(-1.0f, 1.0f, 1.0f);
-
-             GL.Color3(Color.PaleVioletRed);
-             GL.Vertex3(-1.0f, 1.0f, -1.0f);
-             GL.Vertex3(-1.0f, 1.0f, 1.0f);
-             GL.Vertex3(1.0f, 1.0f, 1.0f);
-             GL.Vertex3(1.0f, 1.0f, -1.0f);
-
-             GL.Color3(Color.ForestGreen);
-             GL.Vertex3(1.0f, -1.0f, -1.0f);
-             GL.Vertex3(1.0f, 1.0f, -1.0f);
-             GL.Vertex3(1.0f, 1.0f, 1.0f);
-             GL.Vertex3(1.0f, -1.0f, 1.0f);
-
-             GL.End();
-         }*/
         protected void DrawPyramid()
         {
             GL.Begin(PrimitiveType.Triangles);
