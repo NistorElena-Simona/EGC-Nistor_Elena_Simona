@@ -1,0 +1,12 @@
+E:\egc_teme_lab\tema3\tema3\obj\Debug\tema3.csproj.AssemblyReference.cache
+E:\egc_teme_lab\tema3\tema3\obj\Debug\tema3.csproj.SuggestedBindingRedirects.cache
+E:\egc_teme_lab\tema3\tema3\obj\Debug\tema3.csproj.CoreCompileInputs.cache
+E:\egc_teme_lab\tema3\tema3\bin\Debug\tema3.exe.config
+E:\egc_teme_lab\tema3\tema3\bin\Debug\tema3.exe
+E:\egc_teme_lab\tema3\tema3\bin\Debug\tema3.pdb
+E:\egc_teme_lab\tema3\tema3\bin\Debug\OpenTK.dll
+E:\egc_teme_lab\tema3\tema3\bin\Debug\OpenTK.pdb
+E:\egc_teme_lab\tema3\tema3\bin\Debug\OpenTK.xml
+E:\egc_teme_lab\tema3\tema3\obj\Debug\tema3.csproj.CopyComplete
+E:\egc_teme_lab\tema3\tema3\obj\Debug\tema3.exe
+E:\egc_teme_lab\tema3\tema3\obj\Debug\tema3.pdb
